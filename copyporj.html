@@ -11,30 +11,36 @@
 <body>
     <div class="bg-purple-800 h-16">
         <nav class=" text-white flex justify-between">
-            <img src="zaidjpeg.png" class="h-14 px-5">
-            <ul class=" px-20 py-4 flex space-x-9 justify-end ">
-                <li href="#" class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">Home</li>
-                <li href="#" class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">About</li>
-                <li href="#" class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">Life</li>
-                <li href="#" class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">Contact Us</li>
+            <div class="flex space-x-2 items-center px-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+                <span class="font-bold text-xl">ZAID</span>
+            </div>
+            <ul class=" px-20 py-4 space-x-9 justify-end hidden md:flex">
+                <a href="copyporj.html"><li class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">Home</li></a>
+                <a href="about.html"><li class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">About</li></a>
+                <a href="life.html"><li class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">Life</li></a>
+                <a href="contac.html"><li class="cursor-pointer hover:bg-purple-300 px-2 rounded shadow-purple-300">Contact Us</li></a>
             </ul>
-
-
         </nav>
     </div>
     <main>
-        <div class="h-96 bg-fuchsia-100 py-40 pl-9 ">
+        <div class="h-96 bg-fuchsia-100 py-32 pl-9 ">
             <div class="text-6xl">
                 Hello there,
             </div>
             <div class="py-4 pl-1 w-1/2">
                 <p>
-                    This is a webpage designed with the help of Tailwind css.A utility-first CSS framework packed with
+                    This is a webpage designed with the help of Tailwind. Tailwind is a utility-first CSS framework
+                    packed with
                     classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design,
                     directly in your markup. Below are my socials, lets Connect.
                 </p>
             </div>
-            <div class="flex space-x-4">
+            <div class="flex space-x-4 py-4">
 
                 <button onclick="location.href='https://twitter.com/relaxxaid'"
                     class="flex space-x-3 bg-purple-800 text-white px-4 py-1.5 rounded-2xl hover:bg-purple-600">
@@ -45,7 +51,7 @@
                     </svg>
                     <span>TWITTER</span>
                 </button>
-                <button onclick="location.href='https://www.instagram.com/xaid.vfx/'"
+                <button onclick="location.href='https://www.linkedin.com/in/mohd-zaid-3889801b7'"
                     class=" bg-purple-800 text-white px-4 py-1.5 rounded-2xl hover:bg-purple-600 flex space-x-2">
                     <svg class="w-6 h-6 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512">
@@ -56,6 +62,7 @@
                     <span>LINKEDIN</span>
                 </button>
             </div>
+            <div class="text-right pr-4 text-sm">*under construction</div>
         </div>
     </main>
 </body>
